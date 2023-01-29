@@ -44,17 +44,17 @@ git clone https://github.com/AlanStar233/dodo-Python-SDK.git
 
 > 我创建的工程文件夹名为 **dodo-demo-Project**
 
-![image-20220815084917094](pic/image-20220815084917094.png)
+![image-20220815084917094](https://alanstargroup-1255971644.cos.ap-shanghai.myqcloud.com/Typora/image-20220815084917094.png)
 
 #### 1.3 申请并填写机器人相关信息
 
 ​	如果你**没有申请过** dodo 机器人，请访问 [DoDo 开放平台](https://open.imdodo.com/) 根据引导完成认证，认证通过后可申请机器人，请务必保留好机器人的 **clientId** 与 **token** 信息。
 
-​	![image-20220815085538668](pic/image-20220815085538668.png)
+​	![image-20220815085538668](https://alanstargroup-1255971644.cos.ap-shanghai.myqcloud.com/Typora/image-20220815085538668.png)
 
 ​	如果你准备好了上述数据，请打开工程文件夹下的 **./config/bot_Info.json** 文件，我已经为你预留好了需填写的字段，请填写在 **" "** 中。
 
-![image-20220815085805064](pic/image-20220815085805064.png)
+![image-20220815085805064](https://alanstargroup-1255971644.cos.ap-shanghai.myqcloud.com/Typora/image-20220815085805064.png)
 
 #### 1.4 制作
 
@@ -205,17 +205,17 @@ py ./WebsocketConnection.py
 
 ​	我们在群里的文字频道随便发送一条消息。
 
-![image-20220815095522911](pic/image-20220815095522911.png)
+![image-20220815095522911](https://alanstargroup-1255971644.cos.ap-shanghai.myqcloud.com/Typora/image-20220815095522911.png)
 
 ​	我们看控制台，会有相关消息的监听通知。
 
 > 如果你有看到红色的 [Heartbeat]，是为了保持长连接而发送的心跳包，不必恐慌。
 
-![image-20220815095720803](pic/image-20220815095720803.png)
+![image-20220815095720803](https://alanstargroup-1255971644.cos.ap-shanghai.myqcloud.com/Typora/image-20220815095720803.png)
 
 ​	我们转到私信，可以看到机器人按照我们的预期回复了你发送的内容。
 
-![image-20220815100003345](pic/image-20220815100003345.png)
+![image-20220815100003345](https://alanstargroup-1255971644.cos.ap-shanghai.myqcloud.com/Typora/image-20220815100003345.png)
 
 ​	到此，需求验证成功。
 
